@@ -1,0 +1,18 @@
+.Output{
+    margin-left: 20px;
+    line-height: 4rem;
+    text-align: left;
+    color: #fff;
+    text-shadow: 0 0 1px rgba(0,0,0,.6);
+    letter-spacing: 1px;
+}
+
+.Output strong{
+    font-size: 2.5rem;
+    font-weight: bold;
+
+}
+
+.Output p{
+    font-size: 2rem;
+}

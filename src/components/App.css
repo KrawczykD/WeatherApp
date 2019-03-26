@@ -1,0 +1,42 @@
+.container{
+    margin : 0 auto;
+    padding-top: 4rem;
+    max-width: 400px;
+    min-width: 360px;
+    height: 100vh;
+    position: relative;
+}
+
+.bgcCloud{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-image:url("../images/cloud.png");
+    /* background-size: 4000px; */
+
+    animation:animate 500s linear infinite;
+}
+
+.bgcOpacity{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    opacity: 0.2;
+}
+
+/* /////////////////////////// Animation */
+
+@keyframes animate 
+{
+    0%
+    {
+        background-position: 5440px;
+    }
+
+    100%
+    {
+        background-position: 0px;
+    }
+}
+
